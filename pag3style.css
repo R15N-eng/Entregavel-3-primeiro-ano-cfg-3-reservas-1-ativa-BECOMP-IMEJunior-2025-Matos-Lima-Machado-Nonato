@@ -1,0 +1,84 @@
+body{
+    background-color: #D9D9D9;
+}
+header{
+    background-color: #40A798;
+    font-family: 'sansita one';
+    color: white;
+    font-weight: 700px;
+    font-size: 30px;
+    text-align: center;
+    width: auto;
+    height: 136px;
+    border: 0px;
+}   
+#logo{
+    position: absolute;
+    left: 20px;
+    height: 136px;
+}
+.box-1{
+    background-color: #40A798;
+    position: relative;
+    p{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+.box{
+    background-color: #018DBA;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+    height: 74px;
+    font-family: 'Play Pretend';
+}
+footer{
+    background-color: black;
+    font-family: 'Markazi Text';
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: auto;
+    height: 5%;
+}
+div{
+    background-color: #D9D9D9;
+    display: grid;
+    grid-row: 3;
+    margin: auto;
+}
+.box_class{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: grid;
+    border-radius: 10px;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    text-align: center;
+    font-family: 'Sansita';
+}
+img{
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.real{
+    text-align: center;
+    font-family: 'sansita one';
+    font-size: 30px;
+    color: #018DBA;
+    margin: 0;
+}
+button{
+    background-color:#018DBA;
+    color: white;
+    font-family: 'sansita one';
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
